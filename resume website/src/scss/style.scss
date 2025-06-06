@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+/*
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100dvh;
+    
+  }
+  
+  main {
+    flex-grow: 1;
+  }
+*/
+
+li {
+  font-family: "Overpass", serif;;
+}
+
+$offcanvas-horizontal-width: 200px;
+
+.offcanvas {
+  bottom: auto  !important;
+  border-radius: 0px 0px 0px 10px !important;
+  background-color: #343a40 !important
+}
+
+
+
+$primary: #274039;
+$secondary:#485D58;
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
