@@ -101,7 +101,7 @@ function App() {
             </a>
           </li>
         </ul>
-        <p className="text-center text-muted">© 2024 Kitty-co</p>
+        <p className="text-center text-muted">© 2025 Kitty-co</p>
       </footer>
     </>
   );
