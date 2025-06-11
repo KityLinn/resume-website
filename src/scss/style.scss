@@ -49,6 +49,13 @@ $offcanvas-horizontal-width: 200px;
   transform-origin: bottom left;
 }
 
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
 //temporart colors
 $primary: #274039;
 $secondary:#485D58;

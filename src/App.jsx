@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-      <header className="bg-black">
+      <header>
         <Navbar bg="dark" data-bs-theme="dark">
           <Container className=" d-none d-md-flex">
             <Navbar.Brand href="#home">Linn Kristine</Navbar.Brand>
@@ -73,7 +73,36 @@ function App() {
         <section>Text</section>
         <section>Text</section>
       </main>
-      <footer></footer>
+       <footer className="py-3 my-4">
+        <ul className="nav justify-content-center border-bottom pb-3 mb-3">
+          <li className="nav-item">
+            <a to="#" className="nav-link px-2 text-muted">
+              Home
+            </a>
+          </li>
+          <li className="nav-item">
+            <a to="#" className="nav-link px-2 text-muted">
+              Features
+            </a>
+          </li>
+          <li className="nav-item">
+            <a to="#" className="nav-link px-2 text-muted">
+              Pricing
+            </a>
+          </li>
+          <li className="nav-item">
+            <a to="#" className="nav-link px-2 text-muted">
+              FAQs
+            </a>
+          </li>
+          <li className="nav-item">
+            <a to="#" className="nav-link px-2 text-muted">
+              About
+            </a>
+          </li>
+        </ul>
+        <p className="text-center text-muted">© 2024 Kitty-co</p>
+      </footer>
     </>
   );
 }
