@@ -13,19 +13,43 @@
 */
 
 li {
-  font-family: "Overpass", serif;;
+  font-family: "Overpass", serif;
+  ;
 }
 
+//off canvas styling
 $offcanvas-horizontal-width: 200px;
 
 .offcanvas {
-  bottom: auto  !important;
+  bottom: auto !important;
   border-radius: 0px 0px 0px 10px !important;
   background-color: #343a40 !important
 }
 
+// Link hover underline effect 
+.link-hover {
+  display: inline-block;
+  position: relative;
+}
 
+.link-hover::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  transition: transform 0.25s ease-in;
+}
 
+.link-hover:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+//temporart colors
 $primary: #274039;
 $secondary:#485D58;
 

@@ -14,13 +14,13 @@ function App() {
           <Container className=" d-none d-md-flex">
             <Navbar.Brand href="#home">Linn Kristine</Navbar.Brand>
             <Nav className="justify-content-end">
-              <Nav.Link className="text-white" href="#about">
+              <Nav.Link className="text-white link-hover" href="#about">
                 About me
               </Nav.Link>
-              <Nav.Link className="text-white" href="#projects">
+              <Nav.Link className="text-white link-hover" href="#projects">
                 My projects
               </Nav.Link>
-              <Nav.Link className="text-white" href="#more">
+              <Nav.Link className="text-white link-hover" href="#more">
                 More
               </Nav.Link>
             </Nav>
