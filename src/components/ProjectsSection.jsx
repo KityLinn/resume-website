@@ -4,7 +4,7 @@ import {data} from './data'
 
 export default function ProjectsSection() {
   return (
-    <section className="py-5 bg-white">
+    <section className="py-5 bg-white" id="projects">
       <Container>
         <h2 className="text-center mb-5 fw-bold display-5">My Projects</h2>
         <Row className="g-4">

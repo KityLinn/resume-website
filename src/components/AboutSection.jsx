@@ -4,7 +4,7 @@ import Me from "../assets/profil bilde.jpg";
 
 export default function AboutSection() {
   return (
-    <section className="py-5 bg-light">
+    <section className="py-5 bg-light" id="about">
       <Container>
         <h2 className="text-center mb-5 fw-bold display-5">About Me</h2>
         <Row className="align-items-center g-4">
