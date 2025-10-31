@@ -36,18 +36,18 @@ export default function ProjectsSection() {
                   </div>
                   <div className="d-flex gap-3 pt-3 border-top">
                     <a
-                      href="#"
+                      href={project.githubLink}
                       className="text-decoration-none text-primary d-flex align-items-center gap-2 link-hover"
                     >
                       <Github size={18} />
                       <span className="small">Code</span>
                     </a>
                     <a
-                      href="#"
+                      href={project.pageLink}
                       className="text-decoration-none text-primary d-flex align-items-center gap-2 link-hover"
                     >
                       <ExternalLink size={18} />
-                      <span className="small">Demo</span>
+                      <span className="small"></span>
                     </a>
                   </div>
                 </Card.Body>

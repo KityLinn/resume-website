@@ -10,16 +10,13 @@ export default function Footer() {
             <p className="mb-0">© 2024 Linn Kristine. All rights reserved.</p>
           </Col>
           <Col md={6} className="text-md-end d-flex gap-3 justify-content-md-end">
-            <a href="#" className="text-white text-decoration-none link-light">
+            <a href="https://github.com/KityLinn" className="text-white text-decoration-none link-light">
               <Github size={24} />
             </a>
-            <a href="#" className="text-white text-decoration-none link-light">
+            <a href="https://www.linkedin.com/in/linn-kristine-vikse-a909a6338/" className="text-white text-decoration-none link-light">
               <Linkedin size={24} />
             </a>
-            <a href="#" className="text-white text-decoration-none link-light">
-              <Twitter size={24} />
-            </a>
-            <a href="#" className="text-white text-decoration-none link-light">
+            <a href="linn.vik.dev@gmail.com" className="text-white text-decoration-none link-light">
               <Mail size={24} />
             </a>
           </Col>

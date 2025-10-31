@@ -13,7 +13,10 @@
 */
 
 .image-style {
-  border-radius: 50%;
+  width: 300px;       /* set width */
+  height: 300px;      /* set height (same as width!) */
+  border-radius: 50%; /* makes it circular */
+  object-fit: cover;  /* ensures image fills circle */
 }
 
 li, a {
