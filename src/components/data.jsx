@@ -10,7 +10,7 @@ export const data = [
   {
     title: 'Me Bay',
     description: 'CollabWith this project i was tasked with create an online auction website using the provided API. Allowing users to look for bids and put bids out on items. It uses html, css, js as well as boostrap and SASS.orative project management tool with drag-and-drop functionality, real-time updates, and team collaboration features.',
-    technologies: ['Bootstrap, CSS, API'],
+    technologies: ['Bootstrap', 'CSS', 'API'],
     image: 'https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=400',
     githubLink: 'https://github.com/KityLinn/Auction-website',
     pageLink: 'https://kitylinn.github.io/Auction-website/'

@@ -3,7 +3,7 @@ import { Github, Linkedin, Mail } from 'lucide-react';
 
 export default function Footer() {
   return (
-    <footer className="bg-black text-white py-4 mt-5 position-relative">
+    <footer className="bg-primary text-white py-4 mt-5">
       <Container>
         <Row className="align-items-center">
           <Col md={6} className="mb-3 mb-md-0">

@@ -11,9 +11,9 @@ export default function Header() {
   return (
     <>
       {/* 🖥️ Desktop Navbar */}
-      <Navbar bg="dark" data-bs-theme="dark" className="d-none d-lg-flex">
+      <Navbar className="d-none d-lg-flex blue-background">
         <Container className="d-flex">
-          <Navbar.Brand href="#home">Linn Kristine</Navbar.Brand>
+          <Navbar.Brand href="#home" className="text-white">Linn Kristine</Navbar.Brand>
           <Nav className="justify-content-end">
             <Link
               className="text-white link-hover nav-link"
@@ -44,9 +44,9 @@ export default function Header() {
         </Container>
       </Navbar>
 
-      <Navbar bg="dark" data-bs-theme="dark" className="d-flex d-lg-none">
+      <Navbar className="d-flex d-lg-none bg-primary">
         <Container className="justify-content-between">
-          <Navbar.Brand href="#home">Linn Kristine</Navbar.Brand>
+          <Navbar.Brand href="#home" className="text-white">Linn Kristine</Navbar.Brand>
 
           <Button variant="light" onClick={handleShow}>
             <Menu size={24} />
@@ -55,7 +55,7 @@ export default function Header() {
       </Navbar>
 
       <Offcanvas show={show} onHide={handleClose}  placement="end">
-        <Offcanvas.Header className="bg-black">
+        <Offcanvas.Header className="bg-primary">
           <Button variant="light" onClick={handleClose}>
             <X size={24} />
           </Button>
