@@ -30,7 +30,7 @@ $offcanvas-horizontal-width: 200px;
 .offcanvas {
   bottom: auto !important;
   border-radius: 0px 0px 0px 10px !important;
-  background-color: #343a40 !important
+  background-color: black !important;
 }
 
 // Link hover underline effect 
@@ -56,15 +56,7 @@ $offcanvas-horizontal-width: 200px;
   transform-origin: bottom left;
 }
 
-footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-}
 
-//temporart colors
-$primary: #274039;
-$secondary:#485D58;
+
 
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
