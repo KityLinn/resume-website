@@ -40,6 +40,8 @@ $offcanvas-horizontal-width: 200px;
 .link-hover {
   display: inline-block;
   position: relative;
+  cursor: pointer; 
+
 }
 
 .link-hover::after {

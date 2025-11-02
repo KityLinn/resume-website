@@ -12,9 +12,8 @@ export default function Header() {
     <>
       {/* 🖥️ Desktop Navbar */}
       <Navbar className="d-none d-lg-flex blue-background">
-        <Container className="d-flex">
-          <Navbar.Brand href="#home" className="text-white">Linn Kristine</Navbar.Brand>
-          <Nav className="justify-content-end">
+        <Container className="justify-content-end">
+          <Nav>
             <Link
               className="text-white link-hover nav-link"
               to="about"
@@ -37,24 +36,29 @@ export default function Header() {
               My Projects
             </Link>
 
-            <Nav.Link className="text-white link-hover" href="#more">
-              More
-            </Nav.Link>
+            <Link
+              className="text-white link-hover nav-link"
+              to="footer"
+              spy={true}
+              smooth={true}
+              offset={0}
+              duration={250}
+            >
+              Contact Me
+            </Link>
           </Nav>
         </Container>
       </Navbar>
 
       <Navbar className="d-flex d-lg-none bg-primary">
-        <Container className="justify-content-between">
-          <Navbar.Brand href="#home" className="text-white">Linn Kristine</Navbar.Brand>
-
+        <Container className="justify-content-end">
           <Button variant="light" onClick={handleShow}>
             <Menu size={24} />
           </Button>
         </Container>
       </Navbar>
 
-      <Offcanvas show={show} onHide={handleClose}  placement="end">
+      <Offcanvas show={show} onHide={handleClose} placement="end">
         <Offcanvas.Header className="bg-primary">
           <Button variant="light" onClick={handleClose}>
             <X size={24} />
@@ -85,14 +89,16 @@ export default function Header() {
             >
               My Projects
             </Link>
-
-            <Nav.Link
-              className="text-white"
-              href="#more"
-              data-bs-dismiss="offcanvas"
+            <Link
+              className="text-white link-hover nav-link"
+              to="footer"
+              spy={true}
+              smooth={true}
+              offset={0}
+              duration={250}
             >
-              More
-            </Nav.Link>
+              Contact Me
+            </Link>
           </Nav>
         </Offcanvas.Body>
       </Offcanvas>

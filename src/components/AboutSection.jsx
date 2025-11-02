@@ -15,10 +15,10 @@ export default function AboutSection() {
               alt="Profile"
             />
           </Col>
-          <Col md={6}>
-            <h3 className="mb-3 fw-bold">Linn Kristine Vikse</h3>
-            <p className="lead text-muted mb-3">Front-end Developer</p>
-            <p className="mb-4 lh-lg">
+          <Col md={6} className=' d-flex flex-column gap-3'>
+            <h3 className="fw-bold">Linn Kristine Vikse</h3>
+            <p className="lead text-muted">Front-end Developer</p>
+            <p className="lh-lg border-bottom">
               I’m a newly educated frontend developer with a passion for
               creating user-friendly and visually elegant websites. I
               enjoy bringing designs to life using tools like React, JavaScript,
