@@ -10,7 +10,6 @@ export default function Header() {
   const handleShow = () => setShow(true);
   return (
     <>
-      {/* 🖥️ Desktop Navbar */}
       <Navbar className="d-none d-lg-flex blue-background">
         <Container className="justify-content-end">
           <Nav>
@@ -58,7 +57,7 @@ export default function Header() {
         </Container>
       </Navbar>
 
-      <Offcanvas show={show} onHide={handleClose} placement="end">
+      <Offcanvas show={show} onHide={handleClose} placement="end" restoreFocus={false}>
         <Offcanvas.Header className="bg-primary">
           <Button variant="light" onClick={handleClose} aria-label="close menu">
             <X size={24} />
@@ -74,6 +73,7 @@ export default function Header() {
               offset={0}
               duration={250}
               data-bs-dismiss="offcanvas"
+              onClick={handleClose} 
             >
               About Me
             </Link>
@@ -86,6 +86,7 @@ export default function Header() {
               offset={0}
               duration={250}
               data-bs-dismiss="offcanvas"
+              onClick={handleClose}
             >
               My Projects
             </Link>
@@ -96,6 +97,8 @@ export default function Header() {
               smooth={true}
               offset={0}
               duration={250}
+              data-bs-dismiss="offcanvas"
+              onClick={handleClose} 
             >
               Contact Me
             </Link>
