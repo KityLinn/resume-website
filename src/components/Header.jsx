@@ -52,7 +52,7 @@ export default function Header() {
 
       <Navbar className="d-flex d-lg-none bg-primary">
         <Container className="justify-content-end">
-          <Button variant="light" onClick={handleShow}>
+          <Button variant="light" onClick={handleShow} aria-label="open menu">
             <Menu size={24} />
           </Button>
         </Container>
@@ -60,7 +60,7 @@ export default function Header() {
 
       <Offcanvas show={show} onHide={handleClose} placement="end">
         <Offcanvas.Header className="bg-primary">
-          <Button variant="light" onClick={handleClose}>
+          <Button variant="light" onClick={handleClose} aria-label="close menu">
             <X size={24} />
           </Button>
         </Offcanvas.Header>

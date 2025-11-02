@@ -10,7 +10,7 @@ export default function ProjectsSection() {
         <Row className="g-4">
           {data.map((project, index) => (
             <Col key={index} md={6} lg={4}>
-              <Card className="shadow-sm border-1 project-card">
+              <Card className="shadow-sm border-1 project-card h-100">
                 <Card.Img
                   variant="top"
                   src={project.image}
