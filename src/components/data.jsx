@@ -2,6 +2,7 @@ import holidaze from '../assets/holidaze.png';
 import mebay from '../assets/mebay.png'
 import science from '../assets/science.png'
 import game from '../assets/gamehub.png'
+import sveinsgrill from '../assets/sveinsgrill.png'
 
 export const data = [
   {
@@ -11,6 +12,14 @@ export const data = [
     image: holidaze,
     githubLink: 'https://github.com/KityLinn/Linn-Kristine-Exam-2',
     pageLink: 'https://soft-daffodil-3e238f.netlify.app/login'
+  },
+    {
+    title: 'Sveins Grill',
+    description: 'A prototype website design for a local restaurant. Currently a work in progress',
+    technologies: ['React', 'Bootstrap', 'Sass',],
+    image: sveinsgrill,
+    githubLink: 'https://github.com/KityLinn/sveinsgrill',
+    pageLink: 'https://sveinsgrill.netlify.app/'
   },
   {
     title: 'Me Bay',

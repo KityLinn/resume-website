@@ -47,7 +47,7 @@ export default function ProjectsSection() {
                       className="text-decoration-none text-primary d-flex align-items-center gap-2 link-hover"
                     >
                       <ExternalLink size={18} />
-                      <span className="small"></span>
+                      <span className="small">Live website</span>
                     </a>
                   </div>
                 </Card.Body>
